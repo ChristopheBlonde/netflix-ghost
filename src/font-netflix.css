@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "netflix";
+  src: url("./fonts/fe657ff6e4f81ff660d4001bc5ca8f23.eot");
+  src: url("./fonts/fe657ff6e4f81ff660d4001bc5ca8f23.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/fe657ff6e4f81ff660d4001bc5ca8f23.woff2") format("woff2"),
+    url("./fonts/fe657ff6e4f81ff660d4001bc5ca8f23.woff") format("woff"),
+    url("./fonts/fe657ff6e4f81ff660d4001bc5ca8f23.ttf") format("truetype"),
+    url("./fonts/fe657ff6e4f81ff660d4001bc5ca8f23.svg#.") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

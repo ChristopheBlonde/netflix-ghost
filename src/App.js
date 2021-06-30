@@ -1,9 +1,13 @@
 import "./App.css";
+import Categories from "./components/Categories";
+import Header from "./components/Header";
+import "./font-netflix.css";
 
 function App() {
   return (
     <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+      <Header />
+      <Categories />
     </div>
   );
 }
