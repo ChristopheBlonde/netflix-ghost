@@ -4,17 +4,16 @@ const Categories = () => {
   return (
     <div className="category">
       {netflixLinks.map((item, index) => (
-        <>
-          <span key={index}>{item.category} </span>
+        <div key={index}>
+          <span>{item.category} </span>
           <div className="images">
             {item.images.map((item, index) => (
               <img key={index} src={item} alt="" />
             ))}
           </div>
-        </>
+        </div>
       ))}
     </div>
   );
 };
-
 export default Categories;
